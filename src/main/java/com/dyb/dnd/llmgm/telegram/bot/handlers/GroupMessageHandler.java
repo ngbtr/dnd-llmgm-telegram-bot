@@ -23,7 +23,7 @@ public class GroupMessageHandler implements Handler {
         if(character != null) {
             String username = message.getFrom().getUserName();
 
-            String response = gmInteractionService.processPlayerMessage(userId, username, text);
+            String response = gmInteractionService.processPlayerMessage(userId, username, text, character);
 
             SendMessage reply = new SendMessage(String.valueOf(chatId), response);
             reply.setReplyToMessageId(message.getMessageId());
