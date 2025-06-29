@@ -1,0 +1,50 @@
+{
+  "id" : 420075693,
+  "name": "Юрогг Уничтожитель",
+  "race": "Orc",
+  "characterClass": "Sorcerer",
+  "level": 1,
+  "background": "Дикарь",
+  "alignment": "Chaotic Neutral",
+  "hp": 8,
+  "ac": 13,
+  "speed": 9,
+  "abilities": {
+    "strength": 16,
+    "dexterity": 14,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 10,
+    "charisma": 16
+  },
+  "savingThrows": ["constitution", "charisma"],
+  "skills": ["Arcana", "Intimidation"],
+  "features": [
+    "Darkvision",
+    "Relentless Endurance",
+    "Savage Attacks",
+    "Spellcasting (charisma)",
+    "Wild Magic Surge",
+    "Tides of Chaos",
+    "Cantrips: Fire Bolt, Prestidigitation, Mage Hand, Minor Illusion",
+    "Level 1 spells (2 slots): Mage Armor, Chaos Bolt"
+  ],
+  "equipment": [
+    "Фокусировка мага (жезл)",
+    "Плащ из шкуры неизвестного зверя",
+    "Красная шляпа (магически вдохновляющая)",
+    "Мешочек сушёных жуков",
+    "Старая карта (на самом деле меню таверны)",
+    "Пульсирующее зелье (назначение неизвестно)",
+    "Зелье исцеления (1d4 + 2 HP)",
+    "6 серебра",
+    "34 меди"
+  ],
+  "notes": [
+    "Верит, что его шляпа волшебна",
+    "Не всегда контролирует магию",
+    "Говорит ломаным Общим языком"
+  ],
+  "status": "готов к действию",
+  "location": "где-то в таверне или рядом"
+}
